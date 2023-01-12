@@ -1,0 +1,42 @@
+1> Generate SSH key
+- ssh-keygen -t rsa -b 4096 -C "yourname@gmail.com"
+
+2> Command for clone
+- git clone $gitLab_link
+
+3> Command for clone with specific branch
+- git clone -b <<branch name>> $gitLab_link
+
+4> Push code in git
+- git branch
+- git status
+- git add .
+- git commit -m “commit message”
+- git push origin <<branch name>>
+
+5> Change branch 
+- git checkout <<branch name>>
+
+6> Create new branch
+- git checkout -b “branch name”
+
+7> Add origin
+- git remote add origin
+
+8> Pull git code
+- git pull origin <<branch name>>
+
+9> Merge Code
+- git stash
+- git pull <branch>
+- git stash apply
+
+10> Git global variable
+- git config --list
+- git config --global user.name "ram"
+- git config --global user.email "ram123@gmail.com"
+- Remove user name
+	- git config --global --unset-all user.name
+
+11> clone single branch
+- git clone 'url' -b 'branch name'
